@@ -22,3 +22,11 @@ Screenshot when below 600 pixels. Photos slide to the bottom line.
 ![three](https://user-images.githubusercontent.com/71151015/121146723-e2034e00-c848-11eb-8add-2fbd12d754e5.PNG)
 
 # Send Mail
+
+![1](https://user-images.githubusercontent.com/71151015/132700054-e1f10be2-160b-4aa9-8382-16d6d89e7743.PNG)
+
+![2](https://user-images.githubusercontent.com/71151015/132700076-71ca7c42-fbfc-484d-9798-ec98e1fc1a88.PNG)
+
+![3](https://user-images.githubusercontent.com/71151015/132700092-7694c698-7190-4232-a7cb-7087fe690ca0.PNG)
+
+![4](https://user-images.githubusercontent.com/71151015/132700116-97586eaf-ee21-4ca8-90e1-67bb85950620.PNG)
