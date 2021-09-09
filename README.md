@@ -23,6 +23,8 @@ Screenshot when below 600 pixels. Photos slide to the bottom line.
 
 # Send Mail
 
+First we need to open access from Gmail security settings. 
+
 ![1](https://user-images.githubusercontent.com/71151015/132700054-e1f10be2-160b-4aa9-8382-16d6d89e7743.PNG)
 
 ![2](https://user-images.githubusercontent.com/71151015/132700076-71ca7c42-fbfc-484d-9798-ec98e1fc1a88.PNG)
