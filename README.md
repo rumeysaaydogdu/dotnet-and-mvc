@@ -29,6 +29,6 @@ First we need to open access from Gmail security settings.
 
 ![2](https://user-images.githubusercontent.com/71151015/132700076-71ca7c42-fbfc-484d-9798-ec98e1fc1a88.PNG)
 
-![3](https://user-images.githubusercontent.com/71151015/132700092-7694c698-7190-4232-a7cb-7087fe690ca0.PNG)
+![3](https://user-images.githubusercontent.com/71151015/132833021-95c56d8d-54e5-4a7f-b178-8f9b1a3f2f74.PNG)
 
-![4](https://user-images.githubusercontent.com/71151015/132700116-97586eaf-ee21-4ca8-90e1-67bb85950620.PNG)
+![4](https://user-images.githubusercontent.com/71151015/132833028-c9dd825f-c18d-4871-8ab0-e2cdab5fe749.PNG)
