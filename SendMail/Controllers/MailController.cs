@@ -24,7 +24,7 @@ namespace SendMail.Controllers
             myMail.To.Add("rumcanva@gmail.com");  //liste türünde oludğu için To.Add()  kullanıyoruz
             myMail.From = new MailAddress("rumeysaworks@gmail.com");  //mailimiz string ifade olduğu için, new MailAddress() kullanarak mail türünde bir değişken oluşturuyoruz
             myMail.Subject = "MVC Mail'den: " + mail.Baslik;
-            myMail.Body = mail.Icerik;
+            myMail.Body = mail.Icerik + "<br/> <br/>" +  mail.Ad + " " + mail.Soyad;
             myMail.IsBodyHtml = true;  //başlığa yazdığımız html etiketinin yorumlanabilmesi için
 
             //aşağısı google gmail ayarları
