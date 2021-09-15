@@ -32,3 +32,9 @@ First we need to open access from Gmail security settings.
 ![3](https://user-images.githubusercontent.com/71151015/132833021-95c56d8d-54e5-4a7f-b178-8f9b1a3f2f74.PNG)
 
 ![4](https://user-images.githubusercontent.com/71151015/132833028-c9dd825f-c18d-4871-8ab0-e2cdab5fe749.PNG)
+
+# My CV-portfolio page
+
+![1](https://user-images.githubusercontent.com/71151015/133464171-1556c3d8-7973-4cc9-bcb7-f49603adc1f8.PNG)
+
+![2](https://user-images.githubusercontent.com/71151015/133464198-a041c8c8-49c7-4fe0-a423-c80f99fb2a6d.PNG)
