@@ -35,6 +35,8 @@ First we need to open access from Gmail security settings.
 
 # My CV-portfolio page
 
+html version: https://rumeysaaydogdu.github.io/
+
 ![1](https://user-images.githubusercontent.com/71151015/133464171-1556c3d8-7973-4cc9-bcb7-f49603adc1f8.PNG)
 
 ![2](https://user-images.githubusercontent.com/71151015/133464198-a041c8c8-49c7-4fe0-a423-c80f99fb2a6d.PNG)
