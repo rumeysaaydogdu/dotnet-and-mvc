@@ -40,3 +40,19 @@ html version: https://rumeysaaydogdu.github.io/
 ![1](https://user-images.githubusercontent.com/71151015/133464171-1556c3d8-7973-4cc9-bcb7-f49603adc1f8.PNG)
 
 ![2](https://user-images.githubusercontent.com/71151015/133464198-a041c8c8-49c7-4fe0-a423-c80f99fb2a6d.PNG)
+
+# Student Registration Page 
+
+I did CRUD operations in MVC with Entity Framework. I used the Code First model and migration. 
+
+![1](https://user-images.githubusercontent.com/71151015/133636748-9c405c5d-2178-4dc0-a1d3-7e334d8c602e.PNG)
+
+![2](https://user-images.githubusercontent.com/71151015/133636761-603eeb7c-18fd-4067-b32a-3751f55c77bc.PNG)
+
+![3](https://user-images.githubusercontent.com/71151015/133636771-7f7a0f04-7d0c-4c2f-abc4-17c822dfe076.PNG)
+
+![4](https://user-images.githubusercontent.com/71151015/133636783-42f70795-9e44-4fb5-a881-ba8d6b8a68d8.PNG)
+
+![5](https://user-images.githubusercontent.com/71151015/133636789-21df2b54-7368-4e51-9d61-4bf9f899b319.PNG)
+
+![6](https://user-images.githubusercontent.com/71151015/133636798-c722cc63-ab22-48a5-a457-2c75ce8fb723.PNG)
