@@ -43,7 +43,7 @@ html version: https://rumeysaaydogdu.github.io/
 
 # Student Registration Page 
 
-I did CRUD operations in MVC with Entity Framework. I used the Code First model and migration. 
+I did CRUD operations with Entity Framework in MVC. I used the Code First model and migration. 
 
 Main Page:
 
