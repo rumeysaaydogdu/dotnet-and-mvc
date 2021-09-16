@@ -45,14 +45,26 @@ html version: https://rumeysaaydogdu.github.io/
 
 I did CRUD operations in MVC with Entity Framework. I used the Code First model and migration. 
 
+Main Page:
+
 ![1](https://user-images.githubusercontent.com/71151015/133636748-9c405c5d-2178-4dc0-a1d3-7e334d8c602e.PNG)
+
+Create Page:
 
 ![2](https://user-images.githubusercontent.com/71151015/133636761-603eeb7c-18fd-4067-b32a-3751f55c77bc.PNG)
 
+Edit Page:
+
 ![3](https://user-images.githubusercontent.com/71151015/133636771-7f7a0f04-7d0c-4c2f-abc4-17c822dfe076.PNG)
+
+Details Page:
 
 ![4](https://user-images.githubusercontent.com/71151015/133636783-42f70795-9e44-4fb5-a881-ba8d6b8a68d8.PNG)
 
+Delete Page:
+
 ![5](https://user-images.githubusercontent.com/71151015/133636789-21df2b54-7368-4e51-9d61-4bf9f899b319.PNG)
+
+Students table in database:
 
 ![6](https://user-images.githubusercontent.com/71151015/133636798-c722cc63-ab22-48a5-a457-2c75ce8fb723.PNG)
