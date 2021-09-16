@@ -1,0 +1,53 @@
+﻿@model IEnumerable<OgrenciKayit.Models.Ogrenci>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br/><br />
+<h2>Ögrenciler</h2
+<br /> <br />
+<p>
+    <button class="btn btn-primary">@Html.ActionLink("Yeni Öğrenci Oluştur", "Create", "" , new { style= "text-decoration: none; color:#FFF;" })</button>
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.Label("Ad", htmlAttributes: new { @class = "form-label" })
+        </th>
+        <th>
+            @Html.Label("Soyad", htmlAttributes: new { @class = "form-label" })
+        </th>
+        <th>
+            @Html.Label("Mail", htmlAttributes: new { @class = "form-label" })
+        </th>
+        <th>
+            @Html.Label("Adres", htmlAttributes: new { @class = "form-label" })
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.OgrAd)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OgrSoyad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OgrMail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OgrAdres)
+        </td>
+        <td>
+            @Html.ActionLink("Düzenle", "Edit", "", new { id = item.OgrID }, new { style = "text-decoration: none; color:#FFF;", @class = "btn btn-success" })
+            @Html.ActionLink("Detaylar", "Details", "", new { id = item.OgrID }, new { style = "text-decoration: none; color:#FFF;", @class = "btn btn-info" })
+            @Html.ActionLink("Sil", "Delete", "", new { id = item.OgrID }, new { style = "text-decoration: none; color:#FFF;", @class = "btn btn-danger" })
+        </td>
+    </tr>
+}
+
+</table>
