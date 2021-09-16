@@ -1,0 +1,57 @@
+﻿@model OgrenciKayit.Models.Ogrenci
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Bu öğrenciyi silmek istediğinizden emin misiniz?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.Label("Ad", htmlAttributes: new { @class = "form-label" })
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OgrAd)
+        </dd>
+
+        <dt>
+            @Html.Label("Soyad", htmlAttributes: new { @class = "form-label" })
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OgrSoyad)
+        </dd>
+
+        <dt>
+            @Html.Label("Mail", htmlAttributes: new { @class = "form-label" })
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OgrMail)
+        </dd>
+
+        <dt>
+            @Html.Label("Adres", htmlAttributes: new { @class = "form-label" })
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OgrAdres)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-danger" /> 
+            @Html.ActionLink("Öğrenci Sayfasına Geri Dön", "Index", "", new { style = "text-decoration: none; color:#FFF;", @class = "btn btn-warning" })
+        </div>
+    }
+</div>
