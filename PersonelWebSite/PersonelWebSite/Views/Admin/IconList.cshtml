@@ -1,0 +1,31 @@
+﻿@using PersonelWebSite.Models.Classes
+@model List<Icon>
+
+@{
+    ViewBag.Title = "IconList";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h2 class="mb-4">Icons Page</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Icon</th>
+        <th>Update</th>
+        <th>Delete</th>
+    </tr>
+
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.IconID</td>
+            <td><i class="@x.IconName"></i></td>
+            <td><a href="/Admin/IconEdit/@x.IconID" class="btn btn-primary">Update</a></td>
+            <td><a href="/Admin/IconDelete/@x.IconID" class="btn btn-danger">Delete</a></td>
+        </tr>
+    }
+
+</table>
+<a href="/Admin/NewIcon" class="btn btn-success">Add New Icon</a>

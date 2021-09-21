@@ -1,0 +1,25 @@
+﻿@using PersonelWebSite.Models.Classes
+@model Icon
+
+
+@{
+    ViewBag.Title = "IconEdit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Icon Edit</h2>
+
+@using (Html.BeginForm("IconUpdate", "Admin", FormMethod.Post))
+{
+    @Html.Label("ID")
+    @Html.TextBoxFor(x => x.IconID, new { @class = "form-control", @readonly = "readonly" })
+    <br />
+    @Html.Label("Icon Name")
+    @Html.TextBoxFor(x => x.IconName, new { @class = "form-control" })
+    <br />
+    @Html.Label("Link")
+    @Html.TextBoxFor(x => x.Link, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-success">Update</button>
+}
+

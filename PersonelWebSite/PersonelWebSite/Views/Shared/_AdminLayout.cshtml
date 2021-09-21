@@ -1,0 +1,46 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Admin Panel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+
+
+    <!-- FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
+        <h3 class="w3-bar-item">Admin Panel</h3>
+        <a href="/Admin/Index" class="w3-bar-item w3-button">Home Page</a>
+        <a href="/Admin/IconList" class="w3-bar-item w3-button">Icons</a>
+        <a href="/HomePage/Index" target="_blank" class="w3-bar-item w3-button btn-info">Go To The Site</a>
+        <a href="/Login/LogOut" class="w3-bar-item w3-button btn-danger">Exit</a>
+    </div>
+
+    <!-- Page Content -->
+    <div style="margin-left:25%">
+
+        <div class="w3-container w3-teal" style="background-image: linear-gradient(120deg, #9d4ebd, #f7f5a5); ">
+            <h1>Personel Web Site</h1>
+        </div>
+
+        <div class="w3-container">
+            @RenderBody()
+        </div>
+
+    </div>
+</body>
+</html>
+

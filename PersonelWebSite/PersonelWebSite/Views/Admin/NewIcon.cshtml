@@ -1,0 +1,48 @@
+﻿@using PersonelWebSite.Models.Classes
+@model Icon
+
+@{
+    ViewBag.Title = "NewIcon";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Add New Icon</h2>
+<br />
+
+<form class="form-group" method="post">
+    @Html.Label("Icon Class Name")
+    @Html.TextBoxFor(x => x.IconName, new { @class = "form-control" })
+    <br />
+    @Html.Label("Link")
+    @Html.TextBoxFor(x => x.Link, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-success">Add Icon</button>
+</form>
+
+
+
+
+@*@Html.Label("Icon Name")
+@Html.DropDownList("categories",
+         new List<SelectListItem> {
+             new SelectListItem {
+                Text="fab fa-facebook",
+                Value="1",
+             },
+             new SelectListItem {
+                Text="fab fa-linkedin",
+                Value="2",
+             },
+             new SelectListItem {
+                Text="fab fa-medium",
+                Value="2",
+             },
+             new SelectListItem {
+                Text="fab fa-youtube",
+                Value="2",
+             },
+             new SelectListItem {
+                Text="fab fa-github",
+                Value="2",
+             },
+         }, "Click to Select Icon", new { @class = "form-control" })*@

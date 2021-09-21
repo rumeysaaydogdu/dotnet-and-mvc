@@ -1,0 +1,9 @@
+﻿@using PersonelWebSite.Models.Classes
+@model List<Icon>
+
+<div class="social">
+    @foreach (var x in Model)
+    {
+        <a href="@x.Link" target="_blank"><i class="@x.IconName"></i></a>
+    }
+</div>

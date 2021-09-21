@@ -1,0 +1,43 @@
+﻿@model  PersonelWebSite.Models.Classes.HomePage
+
+
+@*
+    @using PersonelWebSite.Models.Classes
+    @model HomePage       
+    
+    üstteki veya bu şekilde*@
+
+
+@{
+    ViewBag.Title = "HomePageEdit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2 class="mt-4">Home Page Update</h2>
+<hr />
+
+@using (Html.BeginForm("HomePageUpdate", "Admin", FormMethod.Post))  /*  post olduğunda yani update butonuna tıklandığında Admin controller içindeki HomePageUpdate'in dediklerini yap */
+{
+    @Html.Label("ID")
+    @Html.TextBoxFor(x => x.PersonID, new { @class = "form-control", @readonly = "readonly" }) /*  readonly salt okunur olmasını sağlıyor yani okunur ama değiştirilemez.*/
+    <br />
+    @Html.Label("Name")
+    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+    <br />
+    @Html.Label("Photo")
+    @Html.TextBoxFor(x => x.PPhoto, new { @class = "form-control" })
+    <br />
+    @Html.Label("Title")
+    @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+    <br />
+    @Html.Label("Text")
+    @Html.TextAreaFor(x => x.Text, new { @class = "form-control" })
+    <br />
+    @Html.Label("Contact")
+    @Html.TextBoxFor(x => x.Contact, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-success">Update Home Page</button>
+}
+
+
+

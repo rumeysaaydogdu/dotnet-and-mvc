@@ -1,0 +1,27 @@
+﻿@using PersonelWebSite.Models.Classes
+@model List<HomePage>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h2 class="mb-4">Home Page</h2>
+
+<table class="table table-bordered mt-3">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Update</th>
+    </tr>
+    <tr>
+        @foreach (var x in Model)
+        {
+            <td>@x.PersonID</td>
+            <td>@x.Name</td>
+            <td><a href="/Admin/HomePageEdit/@x.PersonID" class="btn btn-primary">Update</a></td>
+        }
+    </tr>
+</table>
+
