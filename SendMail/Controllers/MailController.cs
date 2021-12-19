@@ -30,7 +30,7 @@ namespace SendMail.Controllers
             //aşağısı google gmail ayarları
 
             SmtpClient smtp = new SmtpClient();
-            smtp.Credentials = new NetworkCredential("rumeysaworks@gmail.com", "mvcmail2");  //bu mesajı kimden gönderiyorsak onun mail ve şifresi
+            smtp.Credentials = new NetworkCredential("rumeysaworks@gmail.com", "****rumeysaworks@gmail.com'un şifresi buraya gelecek.tırnak kalsın.****");  //bu mesajı kimden gönderiyorsak onun mail ve şifresi
             smtp.Port = 587;  //gmail ve hotmail 'in portu
             smtp.Host = "smtp.gmail.com";   //hotmail için:  smtp.live.com
             smtp.EnableSsl = true;   // https deki "S" için izin sanırım
