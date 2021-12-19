@@ -31,7 +31,7 @@ namespace rumeysacv.Controllers
 
             SmtpClient smtp = new SmtpClient
             {
-                Credentials = new NetworkCredential("rumeysaworks@gmail.com", "mvcmail2"),  //bu mesajı kimden gönderiyorsak onun mail ve şifresi
+                Credentials = new NetworkCredential("rumeysaworks@gmail.com", "****rumeysaworks@gmail.com'un şifresi buraya gelecek.tırnak kalsın.****"),  //bu mesajı kimden gönderiyorsak onun mail ve şifresi
                 Port = 587,  //gmail ve hotmail 'in portu
                 Host = "smtp.gmail.com",   //hotmail için:  smtp.live.com
                 EnableSsl = true   // https deki "S" için izin sanırım
