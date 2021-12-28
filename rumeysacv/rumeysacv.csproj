@@ -158,8 +158,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\agentOffice.png" />
     <Content Include="images\cargo.jpg" />
     <Content Include="images\digi.jpg" />
+    <Content Include="images\gormelisin.png" />
     <Content Include="images\header-background.jpg" />
     <Content Include="images\math.jpg" />
     <Content Include="images\mvc.jpg" />
